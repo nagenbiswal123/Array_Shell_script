@@ -4,7 +4,7 @@ course[1]=Python
 course[2]=LInux
 course[3]=Django
 course[10]=DataScience
-course[20]=DEvops
+course[20]=Devops
 
 echo "First Element: " ${course[0]}
 echo "Second Element:" ${course[1]}
@@ -13,3 +13,5 @@ echo "All Elements in *: " ${course[*]}
 echo "All Indices where all ements are available :" ${!course[@]}
 echo "The total number of elements are: " ${#course[@]}
 echo "The length of the First elements: " ${#course[0]}
+
+
